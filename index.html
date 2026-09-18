@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão Motivacional</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3e5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .cartao {
+            width: 260px;
+            height: 200px;
+            padding: 15px 25px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .cartao h1 {
+            color: #7b1fa2;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .cartao p {
+            color: #444;
+            font-size: 17px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cartao">
+        <h1>Você consegue!</h1>
+
+        <p>
+            "Acredite em você, continue tentando
+            e transforme seus sonhos em realidade."
+        </p>
+    </div>
+
+</body>
+</html>
